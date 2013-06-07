@@ -7,11 +7,13 @@
     <file path="/.gitignore" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370607477247" ignored="false" />
     <file path="/README.markdown" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370608392000" ignored="false" />
     <file path="/routes.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370609446400" ignored="false" />
-    <file path="/index.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370635043809" ignored="false" />
+    <file path="/index.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370636230637" ignored="false" />
     <file path="/application.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370632362782" ignored="false" />
     <file path="/about.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370632312693" ignored="false" />
     <file path="/contact.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370633230608" ignored="false" />
     <file path="/aboutapp.css.scss" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370634417407" ignored="false" />
+    <file path="/home.css" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370636304659" ignored="false" />
+    <file path="/production.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370636355666" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +30,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="27" selection-start="186" selection-end="186" vertical-scroll-proportion="0.24916944">
+            <state line="8" column="31" selection-start="204" selection-end="204" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -58,7 +60,16 @@
       <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="56" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.63076925">
               <folding />
             </state>
           </provider>
@@ -104,11 +115,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/aboutapp/credits.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="138" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1370632950000" expanded="true" signature="587:718" placeholder="..." />
-                <marker date="1370632950000" expanded="true" signature="788:1335" placeholder="..." />
-                <marker date="1370632950000" expanded="true" signature="861:905" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,11 +142,13 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
+    <option name="x" value="2" />
     <option name="y" value="22" />
     <option name="width" value="1368" />
     <option name="height" value="656" />
@@ -199,6 +208,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SampleGallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SampleGallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,7 +635,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="22" width="1368" height="656" extended-state="6" />
+    <frame x="2" y="22" width="1368" height="656" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -725,25 +752,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/aboutapp_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/aboutapp/credits.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="138" vertical-scroll-proportion="-0.0">
-          <folding>
-            <marker date="1370632950000" expanded="true" signature="587:718" placeholder="..." />
-            <marker date="1370632950000" expanded="true" signature="788:1335" placeholder="..." />
-            <marker date="1370632950000" expanded="true" signature="861:905" placeholder="..." />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -751,34 +760,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/aboutapp/contact.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="44" selection-start="71" selection-end="71" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="557" column="0" selection-start="8748" selection-end="9994" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="262" selection-end="262" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
@@ -792,7 +773,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="186" selection-end="186" vertical-scroll-proportion="0.24916944">
+        <state line="8" column="31" selection-start="204" selection-end="204" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="557" column="0" selection-start="8748" selection-end="9994" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="262" selection-end="262" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/aboutapp_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/aboutapp/credits.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="138" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="56" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.63076925">
           <folding />
         </state>
       </provider>
