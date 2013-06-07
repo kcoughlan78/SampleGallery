@@ -11,3 +11,668 @@
  *= require_self
  *= require_tree .
  */
+/*this doc was validated against as CSS level 3 Strict on the 25/11 with 0 errors, by Kieran Coughlan*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, object, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, h3, h4, h5, h6, sub, sup, tt, var,
+b, u, i, center, ol, ul, li,
+fieldset, form, label, legend, br,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-size:85%;
+    text-align: center;
+    color: black;
+    font-family: verdana, Georgia, Garamond, serif;
+}
+
+*
+		/*start of main layout*/
+	#box_all {
+    margin: 0 auto;
+    position: relative;
+    width:810px;
+    z-index: 10;
+}
+/* nav area */
+#box_top {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 80px;
+    width: 810px;
+    z-index: 10;
+}
+
+
+
+#box_top_left {
+    position: absolute;
+    top: 0%;
+    right: 80%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 10;
+}
+
+
+#box_top_centre {
+    position: absolute;
+    top: 70%;
+    right:20%;
+    bottom: 0%;
+    left: 28%;
+    height: 80px;
+    z-index: 10;
+}
+
+#box_top_centre a:link {
+    color: #F0F0F0;
+}
+
+#box_top_centre ul{
+    height:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+#box_top_centre ul li{
+    border:1px solid #444444;
+    display:inline-block;
+    float:left;
+    height:25px;
+    list-style-type:none;
+    overflow:hidden;
+}
+
+#box_top_centre ul li a, ul li a:hover,
+ul li a:visited{
+    text-decoration:none;
+}
+/* css re menu */
+.normalMenu, .normalMenu:visited,
+.hoverMenu, .hoverMenu:visited,
+.selectedMenu,.selectedMenu:visited {
+    outline:none;
+    padding:5px 10px;
+    display:block;
+}
+
+.hoverMenu,.hoverMenu:visited,
+.selectedMenu,.selectedMenu:visited {
+    margin-top:-25px;
+    background:url(grey_bg.gif) repeat-x #eeeeee;
+    color:#444444;
+}
+
+.selectedMenu,.selectedMenu:visited {
+    margin:0;
+}
+
+.normalMenu, .normalMenu:visited{
+    color:white;
+    background:url(dark_bg.gif) repeat-x #444444;
+}
+
+
+#box_top_right {
+    position: absolute;
+    top: 32%;
+    right: 0%;
+    bottom: 0%;
+    left: 88.2%;
+    height: 80px;
+    width: 115px;
+    z-index: 10;
+}
+/* main content */
+
+#box_centre	{
+    position:relative;
+    top: 0%;
+    right: 0%;
+    left:0%;
+    bottom: 15%;
+    height: 430px;
+    width: 810px;
+    background: #C8C8C8;
+    z-index: 10
+}
+
+#box_centre p {
+    margin: 1em;
+    font-weight: 500;
+}
+
+#box_centre h4 h5 h6 {
+    margin: 0.5em;
+    font-size: 110%;
+    font-weight: 600;
+}
+/* page specific split these over controller css pages */
+#box_centre .picture {
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left:0%;
+    height: 430px;
+    width:810px;
+    background-size: 100% 100%;
+    background-image:url(GHfrontnite.jpg);
+    background-repeat:no-repeat;
+    z-index: 10;
+}
+
+#box_centre .picture_about {
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left:0%;
+    height: 430px;
+    width:810px;
+    background-size: 100% 100%;
+    background-image:url(imgabout.jpg);
+    background-repeat:no-repeat;
+    z-index: 10;
+}
+
+#box_centre .picture_edu {
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left:0%;
+    height: 430px;
+    width:810px;
+    background-size: 100% 100%;
+    background-image:url(GHed.jpg);
+    background-repeat:no-repeat;
+    z-index: 10;
+}
+
+#box_centre .picture_fac {
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left:0%;
+    height: 430px;
+    width:810px;
+    background-size: 100% 100%;
+    background-image:url(Lightroom.jpg);
+    background-repeat:no-repeat;
+    z-index: 10;
+}
+
+#box_centre .picture_bookshop {
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left:0%;
+    height: 430px;
+    width:810px;
+    background-size: 100% 100%;
+    background-image:url(bookshop.jpg);
+    background-repeat:no-repeat;
+    z-index: 10;
+}
+
+#box_centre .picture_exhibition {
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left:0%;
+    height: 430px;
+    width:810px;
+    background-size: 100% 100%;
+    background-image:url(Hofer_Opening.jpg);
+    background-repeat:no-repeat;
+    z-index: 10;
+}
+
+#box_centre .picture_exhibition_desc {
+    position:absolute;
+    height: 190px;
+    width:360px;
+    top: 45%;
+    right: 80%;
+    bottom: 10%;
+    left: 5%;
+    padding: 1px;
+    background-image: url(bgtxt.jpg);
+    opacity: 0.7;
+    text-align: justify;
+    z-index: 15;
+}
+#box_centre .picture_exhibition_desc p {
+    margin: 1em;
+    font-weight: 500;
+}
+
+#box_centre .picture_exhibition_desc h4 {
+    margin: 0.5em;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+#box_centre .picture_exhibition_display {
+    position: absolute;
+    height: 260px;
+    width:260px;
+    top: 10%;
+    right: 15%;
+    bottom: 60%;
+    left: 60%;
+    padding: 1px;
+    text-align: center;
+    z-index: 15;
+}
+
+#box_centre .picture_exhibition_display h4 {
+    margin: 0.5em;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+
+
+#box_centre .picture_txt {
+    position:absolute;
+    height: 180px;
+    width:400px;
+    top: 45%;
+    right: 70%;
+    bottom: 10%;
+    left: 10%;
+    padding: 1px;
+    background-image: url(bgtxt.jpg);
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    text-align: justify;
+    z-index: 15;
+}
+#box_centre .picture_txt p {
+    margin: 1em;
+    font-weight: 500;
+}
+
+#box_centre .picture_txt h4 {
+    margin: 0.5em;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+
+
+#box_centre .picture_txt_long {
+    position:absolute;
+    height: 330px;
+    width:200px;
+    top: 10%;
+    right: 70%;
+    bottom: 60%;
+    left: 10%;
+    padding: 1px;
+    background-image: url(bgtxt.jpg);
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    text-align: justify;
+    z-index: 15;
+}
+#box_centre .picture_txt_long p {
+    margin: 1em;
+    font-weight: 500;
+}
+
+#box_centre .picture_txt_long h4 {
+    margin: 0.5em;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+#box_centre .picture_txt_long_r {
+    position:absolute;
+    height: 350px;
+    width:215px;
+    top: 10%;
+    right: 10%;
+    bottom: 60%;
+    left: 70%;
+    padding: 1px;
+    background-image: url(bgtxt.jpg);
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    text-align: justify;
+    z-index: 15;
+}
+#box_centre .picture_txt_long_r p {
+    margin: 1em;
+    font-weight: 500;
+}
+
+#box_centre .picture_txt_long_r h4 {
+    margin: 0.5em;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+#box_centre .col1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 270px;
+    text-align: justify;
+}
+
+#box_centre .col1 img {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#box_centre .col2 {
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    width: 270px;
+    text-align: justify;
+}
+
+#box_centre .col2 img {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#box_centre .col3 {
+    position: absolute;
+    top: 0px;
+    left: 540px;
+    width: 270px;
+    text-align: justify;
+}
+
+#box_centre .col3 img {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#box_centre .txt {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    bottom: 2%;
+    left: 5%;
+    font-size: 90%;
+}
+#box_centre .txt h3 {
+    margin: 0.5em;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+#box_centre .txt h4 {
+    margin: 0.5em;
+    font-size: 105%;
+    font-weight: 600;
+}
+
+
+#box_centre .txt h5 {
+    margin: 0.5em;
+    font-size: 95%;
+    font-weight: 600;
+}
+
+#box_centre .txt h6 {
+    margin: 0.5em;
+    font-size: 95%;
+    font-weight: 600;
+    color: #CC00CC;
+}
+
+#box_centre .txt_map {
+    position: relative;
+    top: 5%;
+    right: 45%;
+    bottom: 2%;
+    left: 5%;
+    font-size: 90%;
+
+}
+
+#box_centre .txt_map h3 {
+    margin: 0.5em;
+    font-size: 110%;
+    font-weight: 600
+}
+
+#box_centre .map {
+    position: absolute;
+    top: 110%;
+    right: 5%;
+    bottom: 2%;
+    left: 5%;
+}
+
+#box_centre .col_a {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0px;
+    height: 430px;
+    width: 405px;
+    overflow: scroll;
+    text-align: justify;
+}
+
+#box_centre .col_a h5 a {
+    margin: 0.5em;
+    font-size: 90%;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+#box_centre .col_a dl dt {
+    margin: 0.5em;
+    font-weight: 500;
+    opacity: 0.7;
+    color: black;
+}
+
+
+
+
+#box_centre .col_b {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 50%;
+    height: 430px;
+    width: 405px;
+    text-align: justify;
+}
+#box_centre .col_b_pic {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    height: 430px;
+    width: 405px;
+    z-index: 15;
+    text-align: left;
+}
+
+#box_centre .col_b_pichofer {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    height: 430px;
+    width: 405px;
+    z-index: 15;
+    text-align: center;
+    padding-top: 2.5px;
+}
+
+#box_centre .col_b_course {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    height: 430px;
+    width: 405px;
+    background-image:url(courses.jpg);
+    background-repeat:no-repeat;
+    z-index: 15;
+}
+
+#box_bottom {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    width: 810px;
+    z-index: 10;
+}
+
+#box_bottom_left {
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    bottom: 0%;
+    left: 0%;
+    height: 80px;
+    width: 400px;
+    color: black;
+    background-color: white;
+    z-index: 10;
+}
+
+#box_bottom_left .logo {
+    position: relative;
+    top: 10%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    height: 80px;
+    width: 405px;
+    text-align: left;
+}
+
+#box_bottom_right	{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 50%;
+    height: 80px;
+    width: 410px;
+    color: black;
+    background-color: white;
+    z-index: 10;
+}
+
+#box_bottom_right .breadcrumbs {
+    position: relative;
+    top:10%;
+    right:0%;
+    bottom:0%;
+    left:0%;
+    color:#CC00CC;
+    font-family:Courier, Garamond, serif;
+    font-size: 80%;
+    text-align: right;
+}
+
+
+#box_bottom_right .breadcrumbs a {
+    text-decoration:none;
+    color: #CC00CC;
+}
+
+#box_bottom_right .breadcrumbs a:hover {
+    font-weight: 500;
+}
+
+
+h1
+{color: white;
+    font-family: "Accord Heavy SF", Serif;
+    font-size: 24px;}
+
+a {font-weight: bold}
+a:link {color: #CC00CC;}
+a:visited {color: #004654;}
+a:hover {font-weight: 600;}
+
+/* styling for twitter feed */
+
+#twitfeed {
+    background: #f5f5f5;
+    padding: 2.5%;
+    border: #000000 1px solid;
+    border-top-left-radius: 5% 5%;
+    border-top-right-radius: 5% 5%;
+    border-bottom-left-radius: 5% 5%;
+    border-bottom-right-radius: 5% 5%;
+    /* below ensures correct output for MFF*/
+    -moz-border-top-left-radius: 5% 5%;
+    -moz-border-top-right-radius: 5% 5%;
+    -moz-border-bottom-left-radius: 5% 5%;
+    -moz-border-bottom-right-radius: 5% 5%;
+    /* below is for safari */
+    -webkit-border-top-left-radius: 5%;
+    -webkit-border-top-right-radius: 5%;
+    -webkit-border-bottom-left-radius: 5%;
+    -webkit-border-bottom-right-radius: 5%;
+}
+
+
+#twitfeed a, a:link, a:visited {
+    color: #b20000;
+}
+
+#twitter_update_list {
+    margin: 1%;
+}
+
+#twitter_update_list li {
+    background-color: #f5f5f5;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 60%;
+    margin-bottom: 1%;
+}
+
+

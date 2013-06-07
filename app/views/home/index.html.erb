@@ -1,2 +1,8 @@
-<h1>App in Development</h1>
-<p>More to come</p>
+<% content_for :head do %>
+    <title>Sample Gallery</title>
+    <%= stylesheet_link_tag "aboutapp", :media => "all" %>
+<% end %>
+<% content_for :center do %>
+    <div class = "picture">
+    </div>
+<% end %>

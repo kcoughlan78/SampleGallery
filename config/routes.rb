@@ -1,4 +1,10 @@
 SampleGallery::Application.routes.draw do
+  get "aboutapp/about"
+
+  get "aboutapp/credits"
+
+  get "aboutapp/contact"
+
   get "home/index"
 
   # The priority is based upon order of creation:

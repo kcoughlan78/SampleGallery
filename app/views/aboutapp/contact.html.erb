@@ -1,0 +1,42 @@
+<% content_for :head do %>
+    <title>Sample Gallery: Contact Developer</title>
+    <%= stylesheet_link_tag "aboutapp", :media => "all" %>
+<% end %>
+<% content_for :left_center do %>
+<div class = "col_a">
+  <div class = "txt">
+    <form id="queryForm" onsubmit="return formValidation();" method="post" action="#">
+      <p id="error"></p>
+      <dl>
+        <dt><label for="fullname">Name:</label>
+          <input type="text" id="fullname" /></dt>
+      </dl>
+      <dl>
+        <dt><label for="email">E-mail:</label>
+          <input type="text" id="email" /></dt>
+      </dl>
+      <dl>
+        <dt>What is the nature of your query?</dt>
+        <dt>
+          <select title="What can we help you with" id="query">
+            <option value="Default" selected="selected">Please select...</option>
+            <option value="Membership">Membership</option>
+            <option value="Exhibition">Exhibition</option>
+            <option value="Courses">Courses</option>
+            <option value="Bookshop">Bookshop</option>
+            <option value="Facilities">Facilities</option>
+            <option value="Other">Other</option>
+          </select>
+        </dt>
+      </dl>
+      <p>
+        Your message:</p>
+      <p><textarea name="comments" id="comments" rows="10" cols="20">How can we help...</textarea></p>
+      <dl>
+        <dt>Would you like to sign up for our newsletter<input type="checkbox" id="signup" name="subscribe" value="yes" /></dt>
+        <dt><input type ="submit" name="submit" value="Submit"/><input id = "reset" type = "reset"/></dt>
+      </dl>
+    </form>
+  </div>
+</div>
+<% end %>

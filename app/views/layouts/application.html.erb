@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SampleGallery</title>
+  <%= yield :head %>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id = "box_all"><!--this will contain all other divs and page elements-->
+  <section id = "box_top"><!--Broken down into 3 sections left, centre and right will contain logo, menu and social media-->
+    <div id = "box_top_left">
+      <div class= "pic">
+        <br />
+        <%= link_to(image_tag("ghlogo.png", alt: "Sample Gallery"), :controller => 'home', :action => 'index')%>
+      </div>
+    </div>
 
-<%= yield %>
+    <div id="box_top_centre">
+      <div id="menu-container">
 
+        <ul id="navigationMenu">
+
+          <li>Home</li>
+          <li>Exhibitions</li>
+          <li>Education</li>
+          <li>Bookshop</li>
+          <li>About us</li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div id = "box_top_right">
+      <%= link_to(image_tag("twitter_2.png", alt: "Twitter"), "https://twitter.com/kcoughlan78") %>
+      <%= link_to(image_tag("fb_1.png", alt: "Facebook"), "https://facebook.com") %>
+    </div>
+  </section>
+  <section id = "box_centre">
+    <%= yield :left_center %>
+    <%= yield :center %>
+    <%= yield :right_center %>
+  </section>
+  <section id = "box_bottom">
+    <div id = "box_bottom_left">
+      <div class ="logo">
+        <br />
+        <%= link_to(image_tag("aclogo.png", alt: "Art Council"), "http://www.artscouncil.ie")%>
+      </div>
+    </div>
+    <div id = "box_bottom_right">
+      <div class = "breadcrumbs">
+        <!--below are the alternate styles, lightroom and darkroom controlled by the file switcher.js-->
+        <p>Choose your style <a href="#" id="Lightroom">Lightroom</a> or
+          <a href="#" id="Darkroom">Darkroom</a></p>
+      </div>
+    </div>
+  </section>
+</div>
 </body>
 </html>
