@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  description: MyText
+  teacher: MyString
+  places: 1
+  price: 1
+  start_date: 2013-06-10 19:46:17
+  no_of_weeks: 1
+
+two:
+  title: MyString
+  description: MyText
+  teacher: MyString
+  places: 1
+  price: 1
+  start_date: 2013-06-10 19:46:17
+  no_of_weeks: 1
