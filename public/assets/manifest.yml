@@ -71,6 +71,8 @@ imgabout.jpg: imgabout-e85d0f2d06448b337543d1ca7b7d6983.jpg
 imgabout/index.jpg: imgabout-e85d0f2d06448b337543d1ca7b7d6983.jpg
 imgabout1.jpg: imgabout1-7bf0212ab410fc0b074e278a00030aa8.jpg
 imgabout1/index.jpg: imgabout1-7bf0212ab410fc0b074e278a00030aa8.jpg
+logo.png: logo-cd45b1f41b6242ee5a6bb6d5e35578ee.png
+logo/index.png: logo-cd45b1f41b6242ee5a6bb6d5e35578ee.png
 portrait.jpg: portrait-6fdbcf1fad4abfd26623d5bef2940132.jpg
 portrait/index.jpg: portrait-6fdbcf1fad4abfd26623d5bef2940132.jpg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
