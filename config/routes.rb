@@ -1,4 +1,10 @@
 SampleGallery::Application.routes.draw do
+  get "artlessons/index"
+
+  get "artlessons/new"
+
+  get "artlessons/edit"
+
   get "aboutapp/about"
 
   get "aboutapp/credits"

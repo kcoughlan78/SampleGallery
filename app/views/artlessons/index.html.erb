@@ -1,0 +1,17 @@
+<% content_for :head do %>
+    <title>Sample Gallery: Art Lesson List</title>
+    <%= stylesheet_link_tag 'artlessons', :media => "all" %>
+<% end %>
+<% content_for :center do %>
+    <% @artlessons.each do |lesson| %>
+        <article class="<%= cycle('lesson_odd', 'lesson_even') %>">
+          <h4><%= link_to lesson.title, lesson %></h4>
+          <p><span class="lesson_detail"><%= lesson.created_at.to_s(:short) %>  Views: <%= lesson.view %></span></p>
+          <p><span class="lesson_detail">by <%= lesson.teacher %></span></p>
+          <p><%= truncate(strip_tags(lesson.description), length: 200) %></p>
+          <p><%= lesson.no_of_weeks %></p>
+          <p><%= lesson.places %></p>
+          <p><%= lesson.price %></p>
+        </article>
+    <% end %>
+<% end %>

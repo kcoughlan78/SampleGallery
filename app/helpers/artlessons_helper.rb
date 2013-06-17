@@ -1,0 +1,2 @@
+module ArtlessonsHelper
+end
