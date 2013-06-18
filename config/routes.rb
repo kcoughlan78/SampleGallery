@@ -1,4 +1,6 @@
 SampleGallery::Application.routes.draw do
+  resources :artlessons
+
   get "artlessons/index"
 
   get "artlessons/new"
