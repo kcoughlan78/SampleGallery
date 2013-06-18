@@ -77,23 +77,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/artlessons/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="10" selection-start="1035" selection-end="1035" vertical-scroll-proportion="-19.375">
-              <folding>
-                <marker date="1371499374000" expanded="true" signature="106:386" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="233:371" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="409:461" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="469:539" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="547:617" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="625:687" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="695:763" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="771:841" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="849:909" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="917:975" placeholder="..." />
-                <marker date="1371499374000" expanded="true" signature="1001:1034" placeholder="..." />
-              </folding>
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,7 +122,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/artlessons/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="210" vertical-scroll-proportion="-0.0">
+            <state line="6" column="33" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -167,10 +155,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="124" selection-start="1942" selection-end="1942" vertical-scroll-proportion="0.26181102">
+            <state line="48" column="124" selection-start="1942" selection-end="1942" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,12 +193,12 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/models/artlesson.rb" />
         <option value="$PROJECT_DIR$/app/controllers/artlessons_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/artlessons/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/artlessons/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/artlessons/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/artlessons/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/artlessons.css" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/views/artlessons/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -905,42 +893,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/artlessons/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="1035" selection-end="1035" vertical-scroll-proportion="-19.375">
-          <folding>
-            <marker date="1371499374000" expanded="true" signature="106:386" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="233:371" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="409:461" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="469:539" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="547:617" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="625:687" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="695:763" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="771:841" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="849:909" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="917:975" placeholder="..." />
-            <marker date="1371499374000" expanded="true" signature="1001:1034" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/artlessons/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="210" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/artlessons/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="33" selection-start="209" selection-end="209" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/artlessons/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="773" selection-end="773" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
@@ -961,7 +916,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="124" selection-start="1942" selection-end="1942" vertical-scroll-proportion="0.26181102">
+        <state line="48" column="124" selection-start="1942" selection-end="1942" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/artlessons/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="773" selection-end="773" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/artlessons/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/artlessons/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
