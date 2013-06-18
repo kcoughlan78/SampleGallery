@@ -1,5 +1,15 @@
 SampleGallery::Application.routes.draw do
+  get "bookings/new"
+
+  get "bookings/index"
+
+  get "bookings/edit"
+
+  get "bookings/destroy"
+
   resources :artlessons
+
+  resources :bookings
 
   get "artlessons/index"
 

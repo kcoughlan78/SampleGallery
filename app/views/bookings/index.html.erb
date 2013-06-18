@@ -1,0 +1,39 @@
+<% content_for :head do %>
+    <title>Sample Gallery: Accepted Bookings</title>
+    <%= stylesheet_link_tag 'bookings', :media => "all" %>
+<% end %>
+
+
+<h2 class="head2">Bookings</h2>
+<br>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Surname</th>
+    <th>Email</th>
+    <th>Address</th>
+    <th>Payment</th>
+    <th></th>
+    <th>Actions</th>
+  </tr>
+
+  <% @bookings.each do |booking| %>
+      <tr>
+        <td><%= booking.firstname %></td>
+        <td><%= booking.surname %></td>
+        <td><%= booking.email %></td>
+        <td><%= truncate(strip_tags(booking.address), length: 75) %></td>
+        <td><%= booking.payment_type %></td>
+        <td><%= link_to 'Show', booking %></td>
+        <td><%= link_to 'Destroy', booking, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+      </tr>
+      <tr>
+        <!-- <td>_</td>
+         <td>_</td>
+         <td>_</td>
+         <td>_</td>
+         <td>_</td>
+         <td>_</td>-->
+      </tr>
+  <% end %>
+</table>

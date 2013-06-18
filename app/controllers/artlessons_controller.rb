@@ -16,10 +16,16 @@ class ArtlessonsController < ApplicationController
 
       respond_to do |format|
         if @artlesson.save
-          format.html { redirect_to root_url, notice: 'Complaint successfully sent.' }
+          format.html { redirect_to root_url, notice: 'Lesson Created.' }
         else
           format.html { render action: "new" }
         end
       end
   end
+
+
+    def show
+      @artlesson = Artlesson.find(params[:id])
+    end
+
 end
