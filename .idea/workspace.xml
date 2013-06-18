@@ -59,7 +59,7 @@
     <file path="$USER_HOME$/Documents/HvM/app/models/user.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371468191040" ignored="false" />
     <file path="$USER_HOME$/Documents/HvM/app/views/posts/_postshow.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371479013955" ignored="false" />
     <file path="/artlesson.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371498427229" ignored="false" />
-    <file path="/artlessons_controller.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371578243885" ignored="false" />
+    <file path="/artlessons_controller.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371579445956" ignored="false" />
     <file path="/new.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371499335086" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,7 @@
       <file leaf-file-name="artlessons_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/artlessons_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="39" selection-start="527" selection-end="527" vertical-scroll-proportion="0.738189">
+            <state line="25" column="29" selection-start="524" selection-end="524" vertical-scroll-proportion="0.738189">
               <folding />
             </state>
           </provider>
@@ -1057,7 +1057,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/artlessons_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="39" selection-start="527" selection-end="527" vertical-scroll-proportion="0.738189">
+        <state line="25" column="29" selection-start="524" selection-end="524" vertical-scroll-proportion="0.738189">
           <folding />
         </state>
       </provider>

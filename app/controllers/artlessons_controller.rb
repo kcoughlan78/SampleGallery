@@ -12,7 +12,7 @@ class ArtlessonsController < ApplicationController
   end
 
   def create
-    @artlesson = Artlesson.create(params[:artlesson])
+    @artlesson = Artlesson.new(params[:artlesson])
 
       respond_to do |format|
         if @artlesson.save
