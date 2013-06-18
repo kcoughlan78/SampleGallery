@@ -1,0 +1,9 @@
+<% content_for :head do %>
+    <title>Sample Gallery: Accepted Bookings</title>
+    <%= stylesheet_link_tag 'bookings', :media => "all" %>
+<% end %>
+<% content_for :center do %>
+    <h2><span class="head2">Your Booking</span></h2>
+    <p><%= booking.id %></p>
+    <p><%= booking.firstname %> <%= booking.surname %></p>
+<% end %>

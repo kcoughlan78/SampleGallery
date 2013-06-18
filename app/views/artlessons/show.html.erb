@@ -1,0 +1,15 @@
+<% content_for :head do %>
+    <title>Sample Gallery: <%= @artlesson.title %></title>
+    <%= stylesheet_link_tag 'artlessons', :media => "all" %>
+<% end %>
+<% content_for :center do %>
+    <h2><span class="head2"><%= @artlesson.title %></span></h2>
+          <p><span class="lesson_detail"><%= @artlesson.description %></span></p>
+          <p><span class="lesson_detail">by <%= @artlesson.teacher %></span></p>
+          <p>Starting on the <%= @artlesson.start_date %> for a duration of <%= @artlesson.no_of_weeks %></p>
+          <p>Places currently available <%= @artlesson.places %></p>
+          <p>Price €<%= @artlesson.price %></p>
+    <br>
+    <br>
+    <%= link_to 'Book a place', new_booking_url %>
+    <% end %>
