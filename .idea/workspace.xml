@@ -8,7 +8,7 @@
     <file path="/README.markdown" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370608392000" ignored="false" />
     <file path="/routes.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371585507734" ignored="false" />
     <file path="/index.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371587743877" ignored="false" />
-    <file path="/application.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371479284297" ignored="false" />
+    <file path="/application.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371597482869" ignored="false" />
     <file path="/about.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371193642271" ignored="false" />
     <file path="/contact.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370633230608" ignored="false" />
     <file path="/aboutapp.css.scss" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370634417407" ignored="false" />
@@ -88,15 +88,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/bookings/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="-4.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/bookings/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,10 +137,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/artlessons/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="723" selection-end="723" vertical-scroll-proportion="0.46487603">
+            <state line="15" column="36" selection-start="723" selection-end="723" vertical-scroll-proportion="-9.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="56" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.8057851">
               <folding />
             </state>
           </provider>
@@ -192,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/artlessons/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/artlessons/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/artlessons.css" />
         <option value="$PROJECT_DIR$/app/models/booking.rb" />
@@ -208,6 +207,7 @@
         <option value="$PROJECT_DIR$/app/views/artlessons/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bookings/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/artlessons/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -839,13 +839,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bookings.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="13" selection-start="2579" selection-end="2579" vertical-scroll-proportion="0.0">
@@ -971,7 +964,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/artlessons/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="723" selection-end="723" vertical-scroll-proportion="0.46487603">
+        <state line="15" column="36" selection-start="723" selection-end="723" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="56" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.8057851">
           <folding />
         </state>
       </provider>
