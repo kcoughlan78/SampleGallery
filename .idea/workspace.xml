@@ -77,10 +77,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/artlessons/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="86" selection-start="433" selection-end="433" vertical-scroll-proportion="-8.125">
+            <state line="21" column="32" selection-start="602" selection-end="602" vertical-scroll-proportion="0.65082645">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="artlessons_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="artlessons_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/artlessons_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="29" selection-start="524" selection-end="524" vertical-scroll-proportion="0.738189">
+            <state line="25" column="29" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -191,8 +191,8 @@
         <option value="$PROJECT_DIR$/app/views/artlessons/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/artlessons.css" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/views/artlessons/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/artlessons_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/artlessons/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -1041,9 +1041,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/artlessons/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/artlessons_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="86" selection-start="433" selection-end="433" vertical-scroll-proportion="-8.125">
+        <state line="25" column="29" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1055,9 +1055,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/artlessons_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/artlessons/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="524" selection-end="524" vertical-scroll-proportion="0.738189">
+        <state line="21" column="32" selection-start="602" selection-end="602" vertical-scroll-proportion="0.65082645">
           <folding />
         </state>
       </provider>
