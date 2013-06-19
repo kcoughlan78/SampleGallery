@@ -2,6 +2,10 @@
     <title>Sample Gallery: Create New Lesson</title>
     <%= stylesheet_link_tag 'artlessons', :media => "all" %>
 <% end %>
-<% content_for :center do %>
-<%= render "form" %>
+<% content_for :left_center do %>
+    <section class="col_a">
+    <article id="scroll">
+    <%= render "form" %>
+    </article>
+    </section>
 <% end %>

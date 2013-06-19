@@ -8,12 +8,12 @@
     <file path="/README.markdown" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370608392000" ignored="false" />
     <file path="/routes.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371585507734" ignored="false" />
     <file path="/index.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371587743877" ignored="false" />
-    <file path="/application.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371636984249" ignored="false" />
+    <file path="/application.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371638369320" ignored="false" />
     <file path="/about.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371193642271" ignored="false" />
     <file path="/contact.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370633230608" ignored="false" />
     <file path="/aboutapp.css.scss" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370634417407" ignored="false" />
     <file path="/home.css" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370636304659" ignored="false" />
-    <file path="/production.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371585576479" ignored="false" />
+    <file path="/production.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371638300020" ignored="false" />
     <file path="/Dummy.txt" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370983041278" ignored="false" />
     <file path="$USER_HOME$/Documents/HvM/app/assets/stylesheets/application.css.scss" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371150110655" ignored="false" />
     <file path="$USER_HOME$/Documents/HvM/app/views/user_mailer/reg_email.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1370983041278" ignored="false" />
@@ -60,7 +60,7 @@
     <file path="$USER_HOME$/Documents/HvM/app/views/posts/_postshow.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371479013955" ignored="false" />
     <file path="/artlesson.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371498427229" ignored="false" />
     <file path="/artlessons_controller.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371587858030" ignored="false" />
-    <file path="/new.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371587238953" ignored="false" />
+    <file path="/new.html.erb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371638564685" ignored="false" />
     <file path="/booking.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371585449791" ignored="false" />
     <file path="/bookings_controller.rb" changelist="07068ddb-a57b-41c6-a51f-4ee10c27c4ec" time="1371587888606" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,70 +79,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/bookings/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="145" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/bookings/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="149" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1371587893000" expanded="true" signature="194:969" placeholder="..." />
-                <marker date="1371587893000" expanded="true" signature="201:349" placeholder="..." />
-                <marker date="1371587893000" expanded="true" signature="397:798" placeholder="..." />
-                <marker date="1371587893000" expanded="true" signature="809:948" placeholder="..." />
-                <marker date="1371587893000" expanded="true" signature="823:934" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="artlessons_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/artlessons_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="30" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/artlessons/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="27" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-17.416666">
-              <folding>
-                <marker date="1371597244000" expanded="true" signature="106:386" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="233:371" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="412:1121" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="423:471" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="480:551" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="560:648" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="657:738" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="747:834" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="843:932" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="941:1020" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="1029:1106" placeholder="..." />
-                <marker date="1371597244000" expanded="true" signature="1147:1180" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/artlessons/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,7 +91,72 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="86" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.21694215">
+            <state line="6" column="69" selection-start="230" selection-end="230" vertical-scroll-proportion="-0.4338843">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.nicescroll.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.nicescroll.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nanoscroller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/nanoscroller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scroll.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/scroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="20" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="52" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/artlessons/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="24" selection-start="303" selection-end="303" vertical-scroll-proportion="-6.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,27 +165,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/artlessons/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="772" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1371499986000" expanded="true" signature="283:747" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/bookings/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="58" selection-start="318" selection-end="318" vertical-scroll-proportion="-4.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bookings_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/bookings_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="540" selection-end="597" vertical-scroll-proportion="0.0">
+            <state line="17" column="53" selection-start="739" selection-end="739" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -200,12 +181,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/artlessons/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/artlessons.css" />
-        <option value="$PROJECT_DIR$/app/models/booking.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bookings.css" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/bookings/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bookings/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bookings/edit.html.erb" />
@@ -215,7 +192,11 @@
         <option value="$PROJECT_DIR$/app/views/artlessons/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bookings/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/artlessons/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/artlessons/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/scroll.js" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/artlessons/new.html.erb" />
       </list>
     </option>
   </component>
@@ -533,8 +514,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: SampleGallery">
@@ -847,67 +828,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="13" selection-start="2579" selection-end="2579" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/booking.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bookings/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="33" selection-start="1163" selection-end="1163" vertical-scroll-proportion="-17.5">
-          <folding>
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371587283000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/artlessons/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="210" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/artlessons/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bookings/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bookings/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="145" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/bookings_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="540" selection-end="597" vertical-scroll-proportion="0.0">
@@ -933,18 +853,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="27" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-17.416666">
           <folding>
-            <marker date="1371597244000" expanded="true" signature="106:386" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="233:371" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="412:1121" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="423:471" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="480:551" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="560:648" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="657:738" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="747:834" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="843:932" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="941:1020" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="1029:1106" placeholder="..." />
-            <marker date="1371597244000" expanded="true" signature="1147:1180" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371597244000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -953,11 +873,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="149" vertical-scroll-proportion="-0.0">
           <folding>
-            <marker date="1371587893000" expanded="true" signature="194:969" placeholder="..." />
-            <marker date="1371587893000" expanded="true" signature="201:349" placeholder="..." />
-            <marker date="1371587893000" expanded="true" signature="397:798" placeholder="..." />
-            <marker date="1371587893000" expanded="true" signature="809:948" placeholder="..." />
-            <marker date="1371587893000" expanded="true" signature="823:934" placeholder="..." />
+            <marker date="1371587893000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371587893000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371587893000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371587893000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1371587893000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -969,15 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/artlessons/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="772" vertical-scroll-proportion="-0.0">
-          <folding>
-            <marker date="1371499986000" expanded="true" signature="283:747" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/artlessons/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="36" selection-start="723" selection-end="723" vertical-scroll-proportion="-9.375">
@@ -985,9 +896,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/artlessons/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="53" selection-start="739" selection-end="739" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.nicescroll.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/nanoscroller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="52" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/artlessons/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="303" selection-end="303" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="86" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.21694215">
+        <state line="6" column="69" selection-start="230" selection-end="230" vertical-scroll-proportion="-0.4338843">
           <folding />
         </state>
       </provider>
