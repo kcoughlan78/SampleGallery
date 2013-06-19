@@ -25,7 +25,7 @@
 
           <li><%=  link_to "Home", root_url, class: 'normalMenu' %></li>
           <li>Exhibitions</li>
-          <li><%=  link_to "Lessons", artlessons_url, class: 'normalMenu' %></li>
+          <li><%=  link_to "Lessons", :controller => 'artlessons', :action => 'index', class: 'normalMenu' %></li>
           <li>Bookshop</li>
           <li>About us</li>
 
